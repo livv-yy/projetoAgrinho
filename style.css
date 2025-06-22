@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("campo\ fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+
+
+header {
+  background: linear-gradient(to right, #4caf50, #8bc34a);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: 'Fredoka', sans-serif;
+  text-shadow: 2px 2px 4px #2e7d32;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+.secao {
+  padding: 40px 20px;
+  overflow: auto;
+  border-bottom: 2px dashed #cddc39;
+  background-color: rgba(255, 255, 255, 0.85); /* branco translúcido */
+  margin: 20px;
+  border-radius: 12px;
+}
+
+.secao:nth-child(even) {
+  background-color: #f1f8e9;
+}
+
+.secao img {
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.conteudo {
+  text-align: left;
+}
+
+.secao h2 {
+  color: #558b2f;
+  font-size: 1.8em;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 6px 0;
+  font-size: 1.1em;
+}
+
+iframe {
+  margin-top: 15px;
+  border: 2px solid #aed581;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #33691e;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+}
+.gif-trator {
+  width: 100px;
+  margin-top: 10px;
+  animation: flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
